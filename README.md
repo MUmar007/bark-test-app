@@ -7,14 +7,18 @@ In this app I am adding all necessary validations for user Password field. I hav
 ## Features
 
 - User: Represents a user with 2 fields email and password.
-- View User: After the successful creation of user the app takes to the show page.
+- View User: After the successful creation of user the app takes to the landing page.
 - Add User: Any one can add a New Valid User.
+- Email Validation:
+  1. Email must be unique and must be valid(e.g. test@example.com).
 - Password Validations:
   1. Password length validation
   2. Password must have at least one lowercase letter
   3. Password must have at least one uppercase letter
   4. Password must have at least one special letter
   5. Password must have at least one digit
+- Password Confirmation:
+  1. Confirmation must match the entered password
 
 # Build With
 
